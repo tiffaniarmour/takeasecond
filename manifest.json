@@ -1,0 +1,13 @@
+{
+  "name": "Take a Second",
+  "short_name": "Take a Second",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f0efeb",
+  "theme_color": "#3f6f9f",
+  "description": "An energetic hygiene app for overwhelmed moments.",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

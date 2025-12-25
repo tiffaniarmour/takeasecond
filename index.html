@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#3f6f9f" />
+  <meta name="description" content="An energetic hygiene app for overwhelmed moments." />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icon-192.png" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600..700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <title>Take a Second</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="app" aria-live="polite">
+    <div class="card fade-in">
+      <header class="brand">
+        <div class="mark">
+          Take a Second<span class="spark">✦</span>
+        </div>
+        <button class="chip" id="aboutChip" type="button">What is this?</button>
+      </header>
+
+      <!-- Welcome -->
+      <section class="screen" id="screen-welcome">
+        <h1 class="h1">Take a second</h1>
+        <p class="p">This moment counts too.</p>
+
+        <div class="stack">
+          <button class="btn btn-primary" id="btnGetSupport">Get Support Now</button>
+          <button class="btn btn-ghost" id="btnAbout">What is this?</button>
+        </div>
+      </section>
+
+      <!-- Selector -->
+      <section class="screen" id="screen-selector" hidden>
+        <h2 class="h2">Check in with your body</h2>
+        <p class="p">How does your body feel right now?</p>
+
+        <div class="grid">
+          <button class="tile" data-route="sensory">
+            <div class="tile-title">Too loud inside</div>
+            <p class="tile-desc">We’ll lower the signal.</p>
+          </button>
+
+          <button class="tile" data-route="movement">
+            <div class="tile-title">My body won’t settle</div>
+            <p class="tile-desc">Movement is allowed.</p>
+          </button>
+
+          <button class="tile" data-route="grounding">
+            <div class="tile-title">I feel disconnected</div>
+            <p class="til
